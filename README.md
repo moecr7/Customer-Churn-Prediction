@@ -22,19 +22,29 @@ pip install -r requirements.txt
 ```
 Project Structure
 ├── X_train.csv
+
 ├── X_test.csv
+
 ├── y_train.csv
+
 ├── y_test.csv
+
 └── y_pred_final.csv
+
 └── stacking_model.pkl
 
 └── import_data_visualization.ipynb
+
 └── preprocessing.ipynb
+
 └── modelling.ipynb
+
 └── evaluating.ipynb
 
 ├── README.md
+
 ├── requirements.txt
+
 └── .gitignore
 
 ---
