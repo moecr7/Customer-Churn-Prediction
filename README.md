@@ -83,7 +83,7 @@ Evaluation metrics and plots generated in notebooks
 
 
 Results
-Achieved F1 score: ~0.8
+Achieved Recall score: 0.93
 
 Confusion matrix and classification report available in evaluation notebook
 
