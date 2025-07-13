@@ -21,25 +21,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 Project Structure
-├── X_train.csv
-
-├── X_test.csv
-
-├── y_train.csv
-
-├── y_test.csv
-
-└── y_pred_final.csv
-
-└── stacking_model.pkl
-
-└── import_data_visualization.ipynb
-
-└── preprocessing.ipynb
-
-└── modelling.ipynb
-
-└── evaluating.ipynb
+├── costumer_churn.ipynb
 
 ├── README.md
 
@@ -64,15 +46,7 @@ pip install -r requirements.txt
 ```
 
 
-Run these notebooks in this order:
-
-import_data_visualization.ipynb — import data and vizualization
-
-preprocessing.ipynb — data cleaning, encoding, PCA
-
-modelling.ipynb — train stacking model with Optuna tuning
-
-evaluating.ipynb — ate model, tune threshold, save predictions and model
+Run costumer_churn notebooks in this order
 
 🧠 Model Summary
 Final model: StackingClassifier combining RandomForest, XGBoost, LightGBM
@@ -82,14 +56,6 @@ Meta-learner: Logistic Regression
 Imbalanced data handled with SMOTE
 
 Hyperparameters optimized with Optuna
-
-📦 Outputs
-Model saved at model/stacking_model.pkl
-
-Data splits and predictions saved in data/
-
-Evaluation metrics and plots generated in notebooks
-
 
 
 Results
