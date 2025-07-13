@@ -59,7 +59,7 @@ Hyperparameters optimized with Optuna
 
 
 Results
-Achieved Recall score: 0.93
+Achieved Recall score: 0.94
 
 Confusion matrix and classification report available in evaluation notebook
 
