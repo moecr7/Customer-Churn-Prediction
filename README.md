@@ -8,7 +8,7 @@ This project predicts customer churn using an ensemble stacking model combining 
 - Data balancing with SMOTE
 - Stacking ensemble model with hyperparameter tuning (Optuna)
 - Model evaluation with classification report, confusion matrix, and threshold optimization
-- Saving/loading model and predictions for reproducibility
+- Scaling data with RobustScaler
 
 ## Getting Started
 
